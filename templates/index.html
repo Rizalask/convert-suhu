@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style.css">
+    <title>Aplikasi Konversi Suhu</title>
+</head>
+<body>
+    <div class="card">
+        <form method="POST">
+            <input type="number" name="value" placeholder="value">
+            <h3>from</h3>
+            <select name="from_unit" id="from_unit">
+                <option value="celcius">celcius</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+            </select>
+            <h3>to </h3>
+            <select name="to_unit" id="from_unit">
+                <option value="celcius">celcius</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+            </select>
+            <button type="submit">convert men</button>
+        </form>
+        {{result}}
+    </div>
+    
+</body>
+</html>

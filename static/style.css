@@ -1,0 +1,23 @@
+@import url();
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: aqua;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 0cqb;
+    padding: 20px;
+    box-shadow: 0ch-p-;
+}
